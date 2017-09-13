@@ -1,0 +1,9 @@
+C:\Users\marcus.bahia\Documents\Visual Studio 2017\Projects\ProjetoModeloDDD\ProjetoModelo.Domain\bin\Debug\netcoreapp2.0\ProjetoModelo.Domain.deps.json
+C:\Users\marcus.bahia\Documents\Visual Studio 2017\Projects\ProjetoModeloDDD\ProjetoModelo.Domain\bin\Debug\netcoreapp2.0\ProjetoModelo.Domain.dll
+C:\Users\marcus.bahia\Documents\Visual Studio 2017\Projects\ProjetoModeloDDD\ProjetoModelo.Domain\bin\Debug\netcoreapp2.0\ProjetoModelo.Domain.pdb
+C:\Users\marcus.bahia\Documents\Visual Studio 2017\Projects\ProjetoModeloDDD\ProjetoModelo.Domain\obj\Debug\netcoreapp2.0\ProjetoModelo.Domain.csprojResolveAssemblyReference.cache
+C:\Users\marcus.bahia\Documents\Visual Studio 2017\Projects\ProjetoModeloDDD\ProjetoModelo.Domain\obj\Debug\netcoreapp2.0\ProjetoModelo.Domain.csproj.CoreCompileInputs.cache
+C:\Users\marcus.bahia\Documents\Visual Studio 2017\Projects\ProjetoModeloDDD\ProjetoModelo.Domain\obj\Debug\netcoreapp2.0\ProjetoModelo.Domain.AssemblyInfoInputs.cache
+C:\Users\marcus.bahia\Documents\Visual Studio 2017\Projects\ProjetoModeloDDD\ProjetoModelo.Domain\obj\Debug\netcoreapp2.0\ProjetoModelo.Domain.AssemblyInfo.cs
+C:\Users\marcus.bahia\Documents\Visual Studio 2017\Projects\ProjetoModeloDDD\ProjetoModelo.Domain\obj\Debug\netcoreapp2.0\ProjetoModelo.Domain.dll
+C:\Users\marcus.bahia\Documents\Visual Studio 2017\Projects\ProjetoModeloDDD\ProjetoModelo.Domain\obj\Debug\netcoreapp2.0\ProjetoModelo.Domain.pdb

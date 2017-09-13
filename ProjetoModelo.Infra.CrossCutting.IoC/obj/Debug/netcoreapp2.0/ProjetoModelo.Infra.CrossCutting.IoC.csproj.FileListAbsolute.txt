@@ -1,0 +1,15 @@
+C:\Users\marcus.bahia\Documents\Visual Studio 2017\Projects\ProjetoModeloDDD\ProjetoModelo.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.0\ProjetoModelo.Infra.CrossCutting.IoC.deps.json
+C:\Users\marcus.bahia\Documents\Visual Studio 2017\Projects\ProjetoModeloDDD\ProjetoModelo.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.0\ProjetoModelo.Infra.CrossCutting.IoC.dll
+C:\Users\marcus.bahia\Documents\Visual Studio 2017\Projects\ProjetoModeloDDD\ProjetoModelo.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.0\ProjetoModelo.Infra.CrossCutting.IoC.pdb
+C:\Users\marcus.bahia\Documents\Visual Studio 2017\Projects\ProjetoModeloDDD\ProjetoModelo.Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.0\ProjetoModelo.Infra.CrossCutting.IoC.csprojResolveAssemblyReference.cache
+C:\Users\marcus.bahia\Documents\Visual Studio 2017\Projects\ProjetoModeloDDD\ProjetoModelo.Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.0\ProjetoModelo.Infra.CrossCutting.IoC.csproj.CoreCompileInputs.cache
+C:\Users\marcus.bahia\Documents\Visual Studio 2017\Projects\ProjetoModeloDDD\ProjetoModelo.Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.0\ProjetoModelo.Infra.CrossCutting.IoC.AssemblyInfoInputs.cache
+C:\Users\marcus.bahia\Documents\Visual Studio 2017\Projects\ProjetoModeloDDD\ProjetoModelo.Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.0\ProjetoModelo.Infra.CrossCutting.IoC.AssemblyInfo.cs
+C:\Users\marcus.bahia\Documents\Visual Studio 2017\Projects\ProjetoModeloDDD\ProjetoModelo.Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.0\ProjetoModelo.Infra.CrossCutting.IoC.dll
+C:\Users\marcus.bahia\Documents\Visual Studio 2017\Projects\ProjetoModeloDDD\ProjetoModelo.Infra.CrossCutting.IoC\obj\Debug\netcoreapp2.0\ProjetoModelo.Infra.CrossCutting.IoC.pdb
+C:\Users\marcus.bahia\Documents\Visual Studio 2017\Projects\ProjetoModeloDDD\ProjetoModelo.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.0\ProjetoModelo.Application.dll
+C:\Users\marcus.bahia\Documents\Visual Studio 2017\Projects\ProjetoModeloDDD\ProjetoModelo.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.0\ProjetoModelo.Domain.dll
+C:\Users\marcus.bahia\Documents\Visual Studio 2017\Projects\ProjetoModeloDDD\ProjetoModelo.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.0\ProjetoModelo.Infra.Data.dll
+C:\Users\marcus.bahia\Documents\Visual Studio 2017\Projects\ProjetoModeloDDD\ProjetoModelo.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.0\ProjetoModelo.Application.pdb
+C:\Users\marcus.bahia\Documents\Visual Studio 2017\Projects\ProjetoModeloDDD\ProjetoModelo.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.0\ProjetoModelo.Domain.pdb
+C:\Users\marcus.bahia\Documents\Visual Studio 2017\Projects\ProjetoModeloDDD\ProjetoModelo.Infra.CrossCutting.IoC\bin\Debug\netcoreapp2.0\ProjetoModelo.Infra.Data.pdb
