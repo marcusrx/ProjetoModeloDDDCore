@@ -1,9 +1,7 @@
 ﻿using ProjetoModelo.Application.Interface;
 using ProjetoModelo.Domain.Entities;
 using ProjetoModelo.Domain.Interfaces.Services;
-using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace ProjetoModelo.Application
 {

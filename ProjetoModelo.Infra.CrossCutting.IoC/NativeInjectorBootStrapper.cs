@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using AutoMapper;
+﻿using AutoMapper;
 using Microsoft.Extensions.DependencyInjection;
 using ProjetoModelo.Application.Interface;
 using ProjetoModelo.Application;
@@ -21,13 +18,19 @@ namespace ProjetoModelo.Infra.CrossCutting.IoC
             services.AddSingleton(Mapper.Configuration);
             services.AddScoped<IMapper>(sp => new Mapper(sp.GetRequiredService<IConfigurationProvider>(), sp.GetService));
             services.AddScoped<ITipoMaoObraAppService, TipoMaoObraAppService>();
+            services.AddScoped<IDisciplinaAppService, DisciplinaAppService>();
+            services.AddScoped<ICommodityAppService, CommodityAppService>();
 
             // Domain
             services.AddScoped<ITipoMaoObraService, TipoMaoObraService>();
+            services.AddScoped<IDisciplinaService, DisciplinaService>();
+            services.AddScoped<ICommodityService, CommodityService>();
 
             // Infra - Data Repository
             services.AddScoped<ITipoMaoObraRepository, TipoMaoObraRepository>();
-            
+            services.AddScoped<IDisciplinaRepository, DisciplinaRepository>();
+            services.AddScoped<ICommodityRepository, CommodityRepository>();
+
             services.AddScoped<ProjetoModeloContext>();
 
             

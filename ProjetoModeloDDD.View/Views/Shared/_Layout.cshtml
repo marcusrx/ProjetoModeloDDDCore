@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - ProjetoModeloDDD.View</title>
+    <title>@ViewData["Title"] - ProjetoModelo DDD .Net Core</title>
 
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
@@ -26,13 +26,13 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">ProjetoModeloDDD.View</a>
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">ProjetoModelo DDD .Net Core</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Tipo Mão de Obra", "Index", "TipoMaoObra")</li>
+                    <li>@Html.ActionLink("Commodity", "Index", "Commodity")</li>
                 </ul>
             </div>
         </div>
@@ -41,7 +41,8 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; 2017 - ProjetoModeloDDD.View</p>
+            <p>Developed by - <a href="https://www.linkedin.com/in/marcusbahia/" target="_blank">Marcus Bahia</a> - 
+            &copy; 2017 - <a href="https://github.com/marcusrx/ProjetoModeloDDDCore" >Projeto de Modelo Arquitetura em DDD .Net Core <B>GitHub</B></a>
         </footer>
     </div>
 

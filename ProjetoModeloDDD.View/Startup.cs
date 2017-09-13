@@ -2,16 +2,8 @@
 
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.AspNetCore.Http;
-
-
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Authentication.Cookies;
-using ProjetoModelo.Infra.Data.Context;
 using AutoMapper;
 using ProjetoModelo.Infra.CrossCutting.IoC;
 
@@ -26,10 +18,6 @@ namespace ProjetoModeloDDD.View
              .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
              .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true);
 
-            //if (env.IsDevelopment())
-            //{
-            //    builder.AddUserSecrets<Startup>();
-            //}
 
             builder.AddEnvironmentVariables();
             Configuration = builder.Build();

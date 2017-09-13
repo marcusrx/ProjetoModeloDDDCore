@@ -4,7 +4,6 @@ using ProjetoModelo.Infra.Data.Context;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace ProjetoModelo.Infra.Data.Repository
 {
@@ -26,7 +25,12 @@ namespace ProjetoModelo.Infra.Data.Repository
             return Db.Set<TEntity>().Find(ID);
         }
 
-        public IEnumerable<TEntity> GetAll()
+        /// <summary>
+        /// Vitual pois o lazy load nao está funcionando no EF Core
+        /// Sobre escrito na Repository especializada
+        /// </summary>
+        /// <returns></returns>
+        public virtual IEnumerable<TEntity> GetAll()
         {
             return Db.Set<TEntity>().ToList();
         }

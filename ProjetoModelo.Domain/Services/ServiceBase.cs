@@ -2,7 +2,6 @@
 using ProjetoModelo.Domain.Interfaces.Services;
 using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace ProjetoModelo.Domain.Services
 {

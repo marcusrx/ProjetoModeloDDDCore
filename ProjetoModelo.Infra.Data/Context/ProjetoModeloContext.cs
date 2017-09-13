@@ -8,14 +8,14 @@ using Microsoft.Extensions.Configuration;
 using ProjetoModelo.Domain.Entities;
 using ProjetoModelo.Infra.Data.Extensions;
 using ProjetoModelo.Infra.Data.EntityConfig;
-using System;
-using System.Linq;
 
 namespace ProjetoModelo.Infra.Data.Context
 {
     public class ProjetoModeloContext : DbContext
     {
-        DbSet<TipoMaoObra> TiposMaoObra { get; set; }
+        public DbSet<TipoMaoObra> TiposMaoObra { get; set; }
+        public DbSet<Disciplina> Disciplinas { get; set; }
+        public DbSet<Commodity> Commodities { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -24,6 +24,8 @@ namespace ProjetoModelo.Infra.Data.Context
 
 
             modelBuilder.AddConfiguration(new TipoMaoObraMap());
+            modelBuilder.AddConfiguration(new DisciplinaMap());
+            modelBuilder.AddConfiguration(new CommodityMap());
 
             base.OnModelCreating(modelBuilder);
         }

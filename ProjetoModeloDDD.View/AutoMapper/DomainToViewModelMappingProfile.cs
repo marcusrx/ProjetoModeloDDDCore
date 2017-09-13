@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using AutoMapper;
+﻿using AutoMapper;
 using ProjetoModelo.Domain.Entities;
 using ProjetoModeloDDD.View.ViewModels;
 
@@ -19,6 +15,8 @@ namespace ProjetoModeloDDD.View.AutoMapper
         {
 
             CreateMap<TipoMaoObra, TipoMaoObraViewModel>().ReverseMap();
+            CreateMap<Disciplina, DisciplinaViewModel>().ReverseMap();
+            CreateMap<Commodity, CommodityViewModel>().ReverseMap();
         }
     }
 }

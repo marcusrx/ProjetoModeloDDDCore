@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Entities\Autenticacao\" />
+    <Folder Include="Entities\Escopo\" />
+    <Folder Include="Entities\Faturamento\" />
+    <Folder Include="Entities\Performance\" />
     <Folder Include="Entities\Recurso\" />
   </ItemGroup>
 
