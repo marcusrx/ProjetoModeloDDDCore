@@ -1,32 +1,18 @@
 ﻿@model IEnumerable<ProjetoModeloDDD.View.ViewModels.CommodityViewModel>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "CommoditiesComPerformance";
 }
 
-<h2>Commodity</h2>
+<h2>Commodities com Performance</h2>
 
-<div class="row">
-    <div class="col-md-2">
-        <div>
-            <div class="pull-left">
-                <a asp-action="Create" class="btn btn-primary">
-                    <span title="Register New" class="glyphicon glyphicon-plus-sign"></span> Nova Commodity
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-2">
-        <div>
-            <div class="pull-left">
-                <a asp-action="CommoditiesComPerformance" class="btn btn-primary">
-                    <span title="Register New" class="glyphicon"></span> Commodities com Performance
-                </a>
-            </div>
-        </div>
+<div class="form-group">
+    <div class="col-md-10">
+                              
+        <a asp-action="Index" class="btn btn-info">Back to List</a>
     </div>
 </div>
-<br />
+    <br />
 <table class="table">
     <thead>
         <tr>
@@ -61,15 +47,15 @@
                 @Html.DisplayFor(modelItem => item.Descricao)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.TipoMaoDeObra.Descricao)
+                @Html.DisplayFor(modelItem => item.TipoMaoObraID)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Disciplina.Nome)
+                @Html.DisplayFor(modelItem => item.DisciplinaID)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new {  id=item.CommodityID }) |
-                @Html.ActionLink("Details", "Details", new { id = item.CommodityID }) |
-                @Html.ActionLink("Delete", "Delete", new { id = item.CommodityID })
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
             </td>
         </tr>
 }

@@ -1,13 +1,16 @@
 ﻿@model ProjetoModeloDDD.View.ViewModels.CommodityViewModel
+
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Edit";
 }
-<h2>Novo</h2>
+
+<h2>Editar</h2>
+
 <h4>Commodity</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Create">
+        <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             @*<div class="form-group">
                 <label asp-for="CommodityID" class="control-label"></label>
@@ -22,37 +25,32 @@
             <div class="form-group">
                 <label asp-for="Descricao" class="control-label"></label>
                 <input asp-for="Descricao" class="form-control" />
-                @*<span asp-validation-for="Descricao" class="text-danger"></span>*@
+                <span asp-validation-for="Descricao" class="text-danger"></span>
             </div>
             <div class="form-group">
-                @Html.LabelFor(model => model.DisciplinaID, htmlAttributes: new { @class = "control-label" })
-                <div class="form-control">
-                    @Html.DropDownList("DisciplinaID", String.Empty)
-                    @Html.ValidationMessageFor(model => model.DisciplinaID, "", new { @class = "text-danger" })
-                </div>
+                <label asp-for="TipoMaoObraID" class="control-label"></label>
+                <input asp-for="TipoMaoObraID" class="form-control" />
+                <span asp-validation-for="TipoMaoObraID" class="text-danger"></span>
             </div>
-
             <div class="form-group">
-                @Html.LabelFor(model => model.TipoMaoObraID, htmlAttributes: new { @class = "control-label" })
-                <div class="form-control">
-                    @Html.DropDownList("TipoMaoObraID", String.Empty)
-                    @Html.ValidationMessageFor(model => model.TipoMaoObraID, "", new { @class = "text-danger" })
-                </div>
+                <label asp-for="DisciplinaID" class="control-label"></label>
+                <input asp-for="DisciplinaID" class="form-control" />
+                <span asp-validation-for="DisciplinaID" class="text-danger"></span>
             </div>
-
             <div class="form-group">
                 <div class="col-md-offset-2 col-md-10">
-                    <input type="submit" value="Create" class="btn btn-success" />
+                    <input type="submit" value="Save" class="btn btn-success" />
                     <a asp-action="Index" class="btn btn-info">Back to List</a>
                 </div>
-
             </div>
         </form>
     </div>
 </div>
+
 <div>
     @*<a asp-action="Index">Back to List</a>*@
 </div>
+
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
