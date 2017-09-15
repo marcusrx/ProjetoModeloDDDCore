@@ -17,15 +17,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - CrossCutting", "4.2 - CrossCutting", "{9EF064C2-2479-4074-9A14-9D0DBAB9BE6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoModeloDDD.View", "ProjetoModeloDDD.View\ProjetoModeloDDD.View.csproj", "{F7FABE0B-F394-4B2B-A8AD-6B1811ABA7C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoModeloDDD.View", "ProjetoModeloDDD.View\ProjetoModeloDDD.View.csproj", "{F7FABE0B-F394-4B2B-A8AD-6B1811ABA7C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoModelo.Infra.CrossCutting.IoC", "ProjetoModelo.Infra.CrossCutting.IoC\ProjetoModelo.Infra.CrossCutting.IoC.csproj", "{763DEC83-9059-4BEF-9AF3-8FA9D776E9AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoModelo.Infra.CrossCutting.IoC", "ProjetoModelo.Infra.CrossCutting.IoC\ProjetoModelo.Infra.CrossCutting.IoC.csproj", "{763DEC83-9059-4BEF-9AF3-8FA9D776E9AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoModelo.Domain", "ProjetoModelo.Domain\ProjetoModelo.Domain.csproj", "{6E6416BE-8BC7-469F-B052-F1CBD8DA4287}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoModelo.Domain", "ProjetoModelo.Domain\ProjetoModelo.Domain.csproj", "{6E6416BE-8BC7-469F-B052-F1CBD8DA4287}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoModelo.Application", "ProjetoModelo.Application\ProjetoModelo.Application.csproj", "{0740C7FF-3030-4D59-933E-CE0C9A446A9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoModelo.Application", "ProjetoModelo.Application\ProjetoModelo.Application.csproj", "{0740C7FF-3030-4D59-933E-CE0C9A446A9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoModelo.Infra.Data", "ProjetoModelo.Infra.Data\ProjetoModelo.Infra.Data.csproj", "{7C52435B-7339-4B58-8BA9-6D3E7C6EF786}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoModelo.Infra.Data", "ProjetoModelo.Infra.Data\ProjetoModelo.Infra.Data.csproj", "{7C52435B-7339-4B58-8BA9-6D3E7C6EF786}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoModelo.Domain.Core", "ProjetoModelo.Domain.Core\ProjetoModelo.Domain.Core.csproj", "{DAC2BD3E-D702-47D6-AA56-7B892819A91C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +55,10 @@ Global
 		{7C52435B-7339-4B58-8BA9-6D3E7C6EF786}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C52435B-7339-4B58-8BA9-6D3E7C6EF786}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C52435B-7339-4B58-8BA9-6D3E7C6EF786}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAC2BD3E-D702-47D6-AA56-7B892819A91C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAC2BD3E-D702-47D6-AA56-7B892819A91C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAC2BD3E-D702-47D6-AA56-7B892819A91C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAC2BD3E-D702-47D6-AA56-7B892819A91C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -65,6 +71,7 @@ Global
 		{6E6416BE-8BC7-469F-B052-F1CBD8DA4287} = {2F62209A-9038-44EC-B0DF-725030267F7D}
 		{0740C7FF-3030-4D59-933E-CE0C9A446A9E} = {33EEC32E-93EF-4B4E-A848-7B50B3D0F44C}
 		{7C52435B-7339-4B58-8BA9-6D3E7C6EF786} = {2B197728-3A22-43AE-A03B-2E4BB3098FB1}
+		{DAC2BD3E-D702-47D6-AA56-7B892819A91C} = {2F62209A-9038-44EC-B0DF-725030267F7D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {02D5B9B9-0CB4-4709-9C1C-AF20591FADAE}

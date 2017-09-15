@@ -11,8 +11,8 @@ using System;
 namespace ProjetoModelo.Infra.Data.Migrations
 {
     [DbContext(typeof(ProjetoModeloContext))]
-    [Migration("20170912224943_TipoMaoObra")]
-    partial class TipoMaoObra
+    [Migration("20170915221814_MigragacaT")]
+    partial class MigragacaT
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -23,18 +23,26 @@ namespace ProjetoModelo.Infra.Data.Migrations
 
             modelBuilder.Entity("ProjetoModelo.Domain.Entities.Commodity", b =>
                 {
-                    b.Property<int>("CommodityID")
-                        .ValueGeneratedOnAdd();
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnName("ID");
 
-                    b.Property<string>("Descricao");
+                    b.Property<string>("Descricao")
+                        .HasColumnType("varchar(150)")
+                        .HasMaxLength(150);
 
                     b.Property<int>("DisciplinaID");
 
-                    b.Property<string>("Nome");
+                    b.Property<int>("Id");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("varchar(150)")
+                        .HasMaxLength(150);
 
                     b.Property<int>("TipoMaoObraID");
 
-                    b.HasKey("CommodityID");
+                    b.HasKey("ID");
 
                     b.HasIndex("DisciplinaID");
 
@@ -46,13 +54,17 @@ namespace ProjetoModelo.Infra.Data.Migrations
             modelBuilder.Entity("ProjetoModelo.Domain.Entities.Disciplina", b =>
                 {
                     b.Property<int>("DisciplinaID")
-                        .ValueGeneratedOnAdd();
+                        .ValueGeneratedOnAdd()
+                        .HasColumnName("DisciplinaID");
 
                     b.Property<bool>("Ativo");
 
                     b.Property<DateTime>("DataCadastro");
 
-                    b.Property<string>("Nome");
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("varchar(150)")
+                        .HasMaxLength(150);
 
                     b.HasKey("DisciplinaID");
 
@@ -63,7 +75,7 @@ namespace ProjetoModelo.Infra.Data.Migrations
                 {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
-                        .HasColumnName("ID");
+                        .HasColumnName("Id");
 
                     b.Property<bool>("Ativo");
 
@@ -73,6 +85,8 @@ namespace ProjetoModelo.Infra.Data.Migrations
                         .IsRequired()
                         .HasColumnType("varchar(100)")
                         .HasMaxLength(150);
+
+                    b.Property<int>("Id");
 
                     b.HasKey("ID");
 

@@ -1346,11 +1346,24 @@
       "ProjetoModelo.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "ProjetoModelo.Domain.Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/ProjetoModelo.Domain.dll": {}
         },
         "runtime": {
           "bin/placeholder/ProjetoModelo.Domain.dll": {}
+        }
+      },
+      "ProjetoModelo.Domain.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/ProjetoModelo.Domain.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProjetoModelo.Domain.Core.dll": {}
         }
       }
     }
@@ -5021,6 +5034,11 @@
       "type": "project",
       "path": "../ProjetoModelo.Domain/ProjetoModelo.Domain.csproj",
       "msbuildProject": "../ProjetoModelo.Domain/ProjetoModelo.Domain.csproj"
+    },
+    "ProjetoModelo.Domain.Core/1.0.0": {
+      "type": "project",
+      "path": "../ProjetoModelo.Domain.Core/ProjetoModelo.Domain.Core.csproj",
+      "msbuildProject": "../ProjetoModelo.Domain.Core/ProjetoModelo.Domain.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {

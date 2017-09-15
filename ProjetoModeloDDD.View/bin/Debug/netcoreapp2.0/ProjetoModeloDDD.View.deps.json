@@ -4107,11 +4107,22 @@
         }
       },
       "ProjetoModelo.Domain/1.0.0": {
+        "dependencies": {
+          "ProjetoModelo.Domain.Core": "1.0.0"
+        },
         "runtime": {
           "ProjetoModelo.Domain.dll": {}
         },
         "compile": {
           "ProjetoModelo.Domain.dll": {}
+        }
+      },
+      "ProjetoModelo.Domain.Core/1.0.0": {
+        "runtime": {
+          "ProjetoModelo.Domain.Core.dll": {}
+        },
+        "compile": {
+          "ProjetoModelo.Domain.Core.dll": {}
         }
       },
       "ProjetoModelo.Infra.CrossCutting.IoC/1.0.0": {
@@ -6480,6 +6491,11 @@
       "sha512": ""
     },
     "ProjetoModelo.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProjetoModelo.Domain.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

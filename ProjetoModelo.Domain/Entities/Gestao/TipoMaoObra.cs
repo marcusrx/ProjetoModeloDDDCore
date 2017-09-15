@@ -2,11 +2,17 @@
 
 using System;
 using System.Collections.Generic;
+using ProjetoModelo.Domain.Core.Models;
 
 namespace ProjetoModelo.Domain.Entities
 {
-    public class TipoMaoObra
+    public class TipoMaoObra //: Entity
     {
+        
+        //Construtor vazio para o EF
+        protected TipoMaoObra(){ }
+
+
         public int ID { get; set; }
         public string Descricao { get; set; }
         public DateTime DataCadastro { get; set; }

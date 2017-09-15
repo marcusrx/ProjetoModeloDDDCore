@@ -10,9 +10,9 @@ namespace ProjetoModelo.Infra.Data.EntityConfig
         public override void Map(EntityTypeBuilder<Commodity> builder)
         {
             builder.ToTable("Commodity");
-            builder.HasKey(c => c.CommodityID);
-            builder.Property(c => c.CommodityID)
-                .HasColumnName("CommodityID");
+            builder.HasKey(c => c.ID);
+            builder.Property(c => c.ID)
+                .HasColumnName("ID");
 
             builder.Property(C => C.Nome)
                 .HasColumnType("varchar(150)")

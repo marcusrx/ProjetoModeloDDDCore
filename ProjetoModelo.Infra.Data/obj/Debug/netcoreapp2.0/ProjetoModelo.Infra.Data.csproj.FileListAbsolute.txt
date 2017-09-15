@@ -9,3 +9,5 @@ C:\Users\marcus.bahia\Documents\Visual Studio 2017\Projects\ProjetoModeloDDD\Pro
 C:\Users\marcus.bahia\Documents\Visual Studio 2017\Projects\ProjetoModeloDDD\ProjetoModelo.Infra.Data\bin\Debug\netcoreapp2.0\ProjetoModelo.Infra.Data.pdb
 C:\Users\marcus.bahia\Documents\Visual Studio 2017\Projects\ProjetoModeloDDD\ProjetoModelo.Infra.Data\obj\Debug\netcoreapp2.0\ProjetoModelo.Infra.Data.dll
 C:\Users\marcus.bahia\Documents\Visual Studio 2017\Projects\ProjetoModeloDDD\ProjetoModelo.Infra.Data\obj\Debug\netcoreapp2.0\ProjetoModelo.Infra.Data.pdb
+C:\Users\marcus.bahia\Documents\Visual Studio 2017\Projects\ProjetoModeloDDD\ProjetoModelo.Infra.Data\bin\Debug\netcoreapp2.0\ProjetoModelo.Domain.Core.dll
+C:\Users\marcus.bahia\Documents\Visual Studio 2017\Projects\ProjetoModeloDDD\ProjetoModelo.Infra.Data\bin\Debug\netcoreapp2.0\ProjetoModelo.Domain.Core.pdb

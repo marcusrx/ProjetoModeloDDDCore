@@ -196,6 +196,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "ProjetoModelo.Domain.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/ProjetoModelo.Domain.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProjetoModelo.Domain.Core.dll": {}
+        }
       }
     }
   },
@@ -656,11 +666,17 @@
         "netstandard.library.2.0.0.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "ProjetoModelo.Domain.Core/1.0.0": {
+      "type": "project",
+      "path": "../ProjetoModelo.Domain.Core/ProjetoModelo.Domain.Core.csproj",
+      "msbuildProject": "../ProjetoModelo.Domain.Core/ProjetoModelo.Domain.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
-      "Microsoft.NETCore.App >= 2.0.0"
+      "Microsoft.NETCore.App >= 2.0.0",
+      "ProjetoModelo.Domain.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -695,7 +711,11 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\marcus.bahia\\Documents\\Visual Studio 2017\\Projects\\ProjetoModeloDDD\\ProjetoModelo.Domain.Core\\ProjetoModelo.Domain.Core.csproj": {
+              "projectPath": "C:\\Users\\marcus.bahia\\Documents\\Visual Studio 2017\\Projects\\ProjetoModeloDDD\\ProjetoModelo.Domain.Core\\ProjetoModelo.Domain.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

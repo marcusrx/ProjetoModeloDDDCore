@@ -12,4 +12,8 @@
     <Folder Include="Entities\Recurso\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ProjetoModelo.Domain.Core\ProjetoModelo.Domain.Core.csproj" />
+  </ItemGroup>
+
 </Project>

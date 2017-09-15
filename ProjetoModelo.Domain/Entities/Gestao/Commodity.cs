@@ -1,8 +1,17 @@
-﻿namespace ProjetoModelo.Domain.Entities
+﻿using System;
+using ProjetoModelo.Domain.Core.Models;
+using ProjetoModelo.Domain.Services;
+
+namespace ProjetoModelo.Domain.Entities
 {
-    public class Commodity
+    public class Commodity 
     {
-        public int CommodityID { get; set; }
+
+
+        //Construtor vazio para o EF
+        protected Commodity(){ }
+
+        public int ID { get; set; }
         public string Nome { get; set; }
         public string Descricao { get; set; }
         public int TipoMaoObraID { get; set; }

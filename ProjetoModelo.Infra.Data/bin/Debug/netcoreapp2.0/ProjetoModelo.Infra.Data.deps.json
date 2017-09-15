@@ -733,8 +733,16 @@
         }
       },
       "ProjetoModelo.Domain/1.0.0": {
+        "dependencies": {
+          "ProjetoModelo.Domain.Core": "1.0.0"
+        },
         "runtime": {
           "ProjetoModelo.Domain.dll": {}
+        }
+      },
+      "ProjetoModelo.Domain.Core/1.0.0": {
+        "runtime": {
+          "ProjetoModelo.Domain.Core.dll": {}
         }
       }
     }
@@ -1299,6 +1307,11 @@
       "hashPath": "system.xml.xmldocument.4.3.0.nupkg.sha512"
     },
     "ProjetoModelo.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProjetoModelo.Domain.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

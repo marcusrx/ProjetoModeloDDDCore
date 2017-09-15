@@ -5,7 +5,7 @@ namespace ProjetoModeloDDD.View.ViewModels
     public class CommodityViewModel
     {
         [Key]
-        public int CommodityID { get; set; }
+        public int ID { get; set; }
 
         [Required(ErrorMessage = "Preencha o campo Nome")]
         [MaxLength(150, ErrorMessage = "Máximo {0} caracteres")]

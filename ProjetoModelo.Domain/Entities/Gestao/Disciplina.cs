@@ -1,11 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
+using ProjetoModelo.Domain.Core.Models;
 
 
 namespace ProjetoModelo.Domain.Entities
 {
-    public class Disciplina
+    public class Disciplina 
     {
+       
+        //Construtor vazio para o EF
+        protected Disciplina(){}
+
         public int DisciplinaID { get; set; }
         public string Nome { get; set; }
         public bool Ativo { get; set; }

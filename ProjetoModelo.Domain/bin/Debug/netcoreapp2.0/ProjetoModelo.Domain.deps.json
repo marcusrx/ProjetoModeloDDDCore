@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v2.0": {
       "ProjetoModelo.Domain/1.0.0": {
+        "dependencies": {
+          "ProjetoModelo.Domain.Core": "1.0.0"
+        },
         "runtime": {
           "ProjetoModelo.Domain.dll": {}
+        }
+      },
+      "ProjetoModelo.Domain.Core/1.0.0": {
+        "runtime": {
+          "ProjetoModelo.Domain.Core.dll": {}
         }
       }
     }
   },
   "libraries": {
     "ProjetoModelo.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProjetoModelo.Domain.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
