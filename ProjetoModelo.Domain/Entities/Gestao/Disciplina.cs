@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using ProjetoModelo.Domain.Core.Models;
+using ProjetoModelo.Domain.Core.Interfaces;
 
 
 namespace ProjetoModelo.Domain.Entities
 {
-    public class Disciplina 
+    public class Disciplina : IModel<Disciplina>
     {
        
         //Construtor vazio para o EF

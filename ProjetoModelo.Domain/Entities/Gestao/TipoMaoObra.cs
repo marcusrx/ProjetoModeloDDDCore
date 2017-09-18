@@ -3,10 +3,11 @@
 using System;
 using System.Collections.Generic;
 using ProjetoModelo.Domain.Core.Models;
+using ProjetoModelo.Domain.Core.Interfaces;
 
 namespace ProjetoModelo.Domain.Entities
 {
-    public class TipoMaoObra //: Entity
+    public class TipoMaoObra : IModel<TipoMaoObra> //: Entity
     {
         
         //Construtor vazio para o EF
