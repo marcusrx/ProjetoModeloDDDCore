@@ -12,5 +12,10 @@ namespace ProjetoModelo.Domain.Entities
         public bool Ativo { get; set; }
         public virtual Equipe Equipe { get; set; }
 
+        //public void AddEquipe(Equipe ep)
+        //{
+        //    this.Equipe.ad
+        //}
+
     }
 }

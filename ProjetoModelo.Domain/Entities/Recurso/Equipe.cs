@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using ProjetoModelo.Domain.Core.Interfaces;
+using System.Linq;
 
 namespace ProjetoModelo.Domain.Entities
 {
@@ -18,11 +19,27 @@ namespace ProjetoModelo.Domain.Entities
         public bool Mobilizacao { get; set; }
         public bool Ativo { get; set; }
         public Funcionario SupervisorEquipe{ get; set; }
-        public virtual IEnumerable<Funcionario> Funcionarios { get; set; }
+
+        private List<Funcionario> _funcionarios;
+        public virtual IEnumerable<Funcionario> Funcionarios
+        {
+            get { return _funcionarios; }
+        }
+        
 
         public bool EquipeEmMobilizacao(Equipe equipe)
         {
             return equipe.Ativo && equipe.Mobilizacao;
+        }
+
+
+
+        public void AddFuncionario(Funcionario func)
+        {
+            if (Funcionarios.Where(f => f.ID == func.ID).Count() == 0)
+                this._funcionarios.Add(func);
+            else
+                throw new Exception("O Funcionário já está na equipe");
         }
     }
 }
