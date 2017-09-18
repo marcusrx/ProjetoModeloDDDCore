@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
-using ProjetoModelo.Application.Interface;
+using ProjetoModelo.Application.Interface.Recurso;
 using AutoMapper;
 using ProjetoModelo.Domain.Entities;
 using ProjetoModeloDDD.View.ViewModels;

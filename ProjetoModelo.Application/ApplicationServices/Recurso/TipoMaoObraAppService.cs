@@ -1,9 +1,9 @@
-﻿using ProjetoModelo.Application.Interface;
+﻿using ProjetoModelo.Application.Interface.Recurso;
 using ProjetoModelo.Domain.Entities;
 using ProjetoModelo.Domain.Interfaces.Services;
 using System.Collections.Generic;
 
-namespace ProjetoModelo.Application
+namespace ProjetoModelo.Application.ApplicationServices.Recurso
 {
     public class TipoMaoObraAppService : AppServiceBase<TipoMaoObra>, ITipoMaoObraAppService
     {

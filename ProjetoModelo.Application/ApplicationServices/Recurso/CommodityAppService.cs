@@ -1,9 +1,10 @@
-﻿using ProjetoModelo.Application.Interface;
+﻿using System.Collections.Generic;
+
+using ProjetoModelo.Application.Interface.Recurso;
 using ProjetoModelo.Domain.Entities;
 using ProjetoModelo.Domain.Interfaces.Services;
-using System.Collections.Generic;
 
-namespace ProjetoModelo.Application
+namespace ProjetoModelo.Application.ApplicationServices.Recurso
 {
     public class CommodityAppService : AppServiceBase<Commodity>, ICommodityAppService
     {

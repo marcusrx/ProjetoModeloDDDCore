@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.Extensions.DependencyInjection;
-using ProjetoModelo.Application.Interface;
-using ProjetoModelo.Application;
+using ProjetoModelo.Application.Interface.Recurso;
+using ProjetoModelo.Application.ApplicationServices.Recurso;
 using ProjetoModelo.Domain.Interfaces.Repositories;
 using ProjetoModelo.Infra.Data.Repository;
 using ProjetoModelo.Infra.Data.Context;
