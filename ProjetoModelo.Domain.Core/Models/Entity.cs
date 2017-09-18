@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ProjetoModelo.Domain.Core.Models
+﻿namespace ProjetoModelo.Domain.Core.Models
 {
     public abstract class Entity
     {

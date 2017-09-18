@@ -1,7 +1,4 @@
-﻿using System;
-using ProjetoModelo.Domain.Core.Models;
-using ProjetoModelo.Domain.Services;
-using ProjetoModelo.Domain.Core.Interfaces;
+﻿using ProjetoModelo.Domain.Core.Interfaces;
 
 namespace ProjetoModelo.Domain.Entities
 {

@@ -2,7 +2,6 @@
 using ProjetoModelo.Domain.Entities;
 using ProjetoModelo.Domain.Interfaces.Services;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace ProjetoModelo.Application
 {

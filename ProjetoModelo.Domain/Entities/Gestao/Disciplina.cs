@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using ProjetoModelo.Domain.Core.Models;
 using ProjetoModelo.Domain.Core.Interfaces;
 
 

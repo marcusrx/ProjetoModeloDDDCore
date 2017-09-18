@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ProjetoModelo.Domain.Core.Interfaces
+﻿namespace ProjetoModelo.Domain.Core.Interfaces
 {
 
     //essa interface apenas as entidades do modelo devem implementa-la
