@@ -1,4 +1,4 @@
-﻿using ProjetoModelo.Domain.Entities;
+﻿using ProjetoModelo.Domain.Entities.Gestao;
 using ProjetoModelo.Domain.Interfaces.Repositories;
 using ProjetoModelo.Domain.Interfaces.Services;
 

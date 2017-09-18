@@ -1,7 +1,5 @@
-﻿using ProjetoModelo.Domain.Entities;
-using System;
+﻿using ProjetoModelo.Domain.Entities.Recurso;
 using System.Collections.Generic;
-using System.Text;
 
 namespace ProjetoModelo.Domain.Interfaces.Repositories
 {

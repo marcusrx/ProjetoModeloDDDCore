@@ -1,8 +1,9 @@
-﻿using ProjetoModelo.Application.Interface.Recurso;
+﻿using ProjetoModelo.Application.Interface.Gestao;
 using ProjetoModelo.Domain.Entities;
+using ProjetoModelo.Domain.Entities.Gestao;
 using ProjetoModelo.Domain.Interfaces.Services;
 
-namespace ProjetoModelo.Application.ApplicationServices.Recurso
+namespace ProjetoModelo.Application.ApplicationServices.Gestao
 {
     public class DisciplinaAppService : AppServiceBase<Disciplina>, IDisciplinaAppService
     {

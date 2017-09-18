@@ -1,4 +1,4 @@
-﻿using ProjetoModelo.Domain.Entities;
+﻿using ProjetoModelo.Domain.Entities.Gestao;
 using System.Collections.Generic;
 
 namespace ProjetoModelo.Domain.Interfaces.Services

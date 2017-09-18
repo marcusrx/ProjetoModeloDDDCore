@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using ProjetoModelo.Domain.Entities;
+using ProjetoModelo.Domain.Entities.Gestao;
 using ProjetoModelo.Domain.Interfaces.Repositories;
 using System.Collections.Generic;
 using System.Linq;

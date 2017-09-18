@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using ProjetoModelo.Domain.Entities;
+﻿using System.Collections.Generic;
 using ProjetoModelo.Domain.Interfaces.Repositories;
 using ProjetoModelo.Domain.Interfaces.Services;
 using System.Linq;
+using ProjetoModelo.Domain.Entities.Recurso;
 
 namespace ProjetoModelo.Domain.Services
 {

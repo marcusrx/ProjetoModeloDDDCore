@@ -1,6 +1,6 @@
 ﻿using ProjetoModelo.Domain.Core.Interfaces;
 
-namespace ProjetoModelo.Domain.Entities
+namespace ProjetoModelo.Domain.Entities.Gestao
 {
     public class Commodity  : IModel<Commodity>
     {

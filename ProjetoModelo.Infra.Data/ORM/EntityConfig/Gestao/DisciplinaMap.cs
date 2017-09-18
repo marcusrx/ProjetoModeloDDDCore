@@ -1,7 +1,7 @@
-﻿using ProjetoModelo.Domain.Entities;
-using ProjetoModelo.Infra.Data.Extensions;
+﻿using ProjetoModelo.Infra.Data.Extensions;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Microsoft.EntityFrameworkCore;
+using ProjetoModelo.Domain.Entities.Gestao;
 
 namespace ProjetoModelo.Infra.Data.EntityConfig
 {

@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using ProjetoModelo.Domain.Entities;
+﻿using ProjetoModelo.Domain.Entities.Recurso;
 using ProjetoModelo.Domain.Interfaces.Repositories;
 using ProjetoModelo.Domain.Interfaces.Services;
 

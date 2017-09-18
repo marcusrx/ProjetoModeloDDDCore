@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
-using ProjetoModelo.Application.Interface.Recurso;
-using ProjetoModelo.Domain.Entities;
+using ProjetoModelo.Application.Interface.Gestao;
 using ProjetoModeloDDD.View.ViewModels;
 using AutoMapper;
+using ProjetoModelo.Domain.Entities.Gestao;
 
 namespace ProjetoModeloDDD.View.Controllers
 {

@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using ProjetoModelo.Domain.Core.Interfaces;
 
-namespace ProjetoModelo.Domain.Entities
+namespace ProjetoModelo.Domain.Entities.Gestao
 {
     public class TipoMaoObra : IModel<TipoMaoObra> //: Entity
     {
@@ -20,9 +20,18 @@ namespace ProjetoModelo.Domain.Entities
 
         public virtual IEnumerable<Commodity> Commodities { get; set; }
 
+
         public bool TipoMObraComPerformance(TipoMaoObra tipoMO)
         {
             return tipoMO.Ativo && (tipoMO.ID.Equals(1) || tipoMO.ID.Equals(2));
         }
+
+        //public void AddCommodity(Commodity cmm)
+        //{
+        //    if (Commodities.Where(c => c.ID == cmm.ID).Count() == 0)
+        //        this._commodities.Add(cmm);
+        //    else
+        //        throw new Exception("Esse tipo de Mão de Obra já possui a Commodity");
+        //}
     }
 }

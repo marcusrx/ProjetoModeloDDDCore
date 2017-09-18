@@ -18,4 +18,8 @@
     <ProjectReference Include="..\ProjetoModelo.Domain\ProjetoModelo.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="ORM\EntityConfig\Recurso\" />
+  </ItemGroup>
+
 </Project>

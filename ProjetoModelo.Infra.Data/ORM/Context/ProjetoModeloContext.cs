@@ -4,10 +4,9 @@ using System.IO;
 using Microsoft.EntityFrameworkCore;
 
 using Microsoft.Extensions.Configuration;
-
-using ProjetoModelo.Domain.Entities;
 using ProjetoModelo.Infra.Data.Extensions;
 using ProjetoModelo.Infra.Data.EntityConfig;
+using ProjetoModelo.Domain.Entities.Gestao;
 
 namespace ProjetoModelo.Infra.Data.Context
 {

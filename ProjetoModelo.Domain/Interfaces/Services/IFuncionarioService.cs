@@ -1,7 +1,6 @@
-﻿using ProjetoModelo.Domain.Entities;
+﻿using ProjetoModelo.Domain.Entities.Recurso;
 using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace ProjetoModelo.Domain.Interfaces.Services
 {

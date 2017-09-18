@@ -1,10 +1,8 @@
 ﻿using ProjetoModelo.Domain.Entities;
 using ProjetoModelo.Domain.Interfaces.Repositories;
 using ProjetoModelo.Domain.Interfaces.Services;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace ProjetoModelo.Domain.Services
 {

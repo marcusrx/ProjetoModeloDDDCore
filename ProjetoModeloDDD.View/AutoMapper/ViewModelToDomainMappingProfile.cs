@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
+using ProjetoModelo.Domain.Entities.Gestao;
 using ProjetoModeloDDD.View.ViewModels;
-using ProjetoModelo.Domain.Entities;
 
 namespace ProjetoModeloDDD.View.AutoMapper
 {

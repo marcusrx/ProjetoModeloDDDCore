@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 using ProjetoModelo.Domain.Core.Interfaces;
 using System.Linq;
+using ProjetoModelo.Domain.Entities.Recurso;
 
 namespace ProjetoModelo.Domain.Entities
 {
