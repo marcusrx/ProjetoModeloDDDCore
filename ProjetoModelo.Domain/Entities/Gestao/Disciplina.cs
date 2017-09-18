@@ -9,7 +9,12 @@ namespace ProjetoModelo.Domain.Entities.Gestao
     {
        
         //Construtor vazio para o EF
-        protected Disciplina(){}
+        protected Disciplina(int disciplinaID, string nome, bool ativo, DateTime dataCadastro){
+            DisciplinaID = disciplinaID;
+            Nome = nome;
+            Ativo = ativo;
+            DataCadastro = dataCadastro;
+        }
 
         public int DisciplinaID { get; set; }
         public string Nome { get; set; }

@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{C24C2AFE-8CA5-4F78-BB43-99615DE5D955}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{C24C2AFE-8CA5-4F78-BB43-99615DE5D955}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Services", "1 - Services", "{84D7CF4B-03BE-4B05-B16D-BF7023DCB979}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Services API", "2 - Services API", "{84D7CF4B-03BE-4B05-B16D-BF7023DCB979}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{33EEC32E-93EF-4B4E-A848-7B50B3D0F44C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Application", "3 - Application", "{33EEC32E-93EF-4B4E-A848-7B50B3D0F44C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{2F62209A-9038-44EC-B0DF-725030267F7D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Domain", "4 - Domain", "{2F62209A-9038-44EC-B0DF-725030267F7D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{95646F4D-5586-4C35-BB88-D4B1FD086205}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Infra", "5 - Infra", "{95646F4D-5586-4C35-BB88-D4B1FD086205}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{2B197728-3A22-43AE-A03B-2E4BB3098FB1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.1 - Data", "5.1 - Data", "{2B197728-3A22-43AE-A03B-2E4BB3098FB1}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - CrossCutting", "4.2 - CrossCutting", "{9EF064C2-2479-4074-9A14-9D0DBAB9BE6A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.2 - CrossCutting", "5.2 - CrossCutting", "{9EF064C2-2479-4074-9A14-9D0DBAB9BE6A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoModeloDDD.View", "ProjetoModeloDDD.View\ProjetoModeloDDD.View.csproj", "{F7FABE0B-F394-4B2B-A8AD-6B1811ABA7C4}"
 EndProject
@@ -28,6 +28,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoModelo.Infra.Data", "ProjetoModelo.Infra.Data\ProjetoModelo.Infra.Data.csproj", "{7C52435B-7339-4B58-8BA9-6D3E7C6EF786}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoModelo.Domain.Core", "ProjetoModelo.Domain.Core\ProjetoModelo.Domain.Core.csproj", "{DAC2BD3E-D702-47D6-AA56-7B892819A91C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 - Teste", "6 - Teste", "{0C57B494-3358-42BF-8C70-4D26374D9388}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

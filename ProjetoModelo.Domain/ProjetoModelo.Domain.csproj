@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <Folder Include="Entities\Autenticacao\" />
+    <Folder Include="Entities\DashBoard\" />
     <Folder Include="Entities\Escopo\" />
     <Folder Include="Entities\Faturamento\" />
     <Folder Include="Entities\PontoEspelho\" />
