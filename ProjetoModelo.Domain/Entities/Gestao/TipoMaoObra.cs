@@ -16,6 +16,7 @@ namespace ProjetoModelo.Domain.Entities.Gestao
         public int ID { get; set; }
         public string Descricao { get; set; }
         public DateTime DataCadastro { get; set; }
+        public bool Performance { get; set; }
         public bool Ativo { get; set; }
 
         public virtual IEnumerable<Commodity> Commodities { get; set; }
@@ -23,7 +24,7 @@ namespace ProjetoModelo.Domain.Entities.Gestao
 
         public bool TipoMObraComPerformance(TipoMaoObra tipoMO)
         {
-            return tipoMO.Ativo && (tipoMO.ID.Equals(1) || tipoMO.ID.Equals(2));
+            return tipoMO.Ativo && tipoMO.Performance.Equals(true);
         }
 
         //public void AddCommodity(Commodity cmm)
